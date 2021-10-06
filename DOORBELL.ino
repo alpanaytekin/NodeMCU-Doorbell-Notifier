@@ -4,11 +4,11 @@
 #include <Pushsafer.h>
 
 // Initialize Wifi connection to the router
-char ssid[] = "ONE PIECE";     // your network SSID (name)
-char password[] = "gomugomuno"; // your network key
+char ssid[] = "######";     // your network SSID (name)
+char password[] = "######"; // your network key
 
 // Pushsafer private or alias key
-#define PushsaferKey "koA8c2oVMUr2K9b3sOAS"
+#define PushsaferKey "######"
 
 /*WiFiClientSecure client;*/
 WiFiClient client;
@@ -51,7 +51,7 @@ void setup() {
 
 void door(){
   struct PushSaferInput doorbell;
-  doorbell.message = "ZİL ÇALDI!";
+  doorbell.message = "DOOR BELL RANG!";
   doorbell.title = "";
   doorbell.sound = "8";
   doorbell.vibration = "0";
