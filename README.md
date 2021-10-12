@@ -11,3 +11,4 @@ I started looking for methods to get notified via phone.  The system should be:
 * able to send notificaition from server to mobile app
 
 I ended up buying a NodeMCU microcontroller since it was easily programmable like an Arduino.
+![Node MCU](nodemcu.JPG)
