@@ -13,5 +13,6 @@ I started looking for methods to get notified via phone.  The system should be:
 I ended up buying a NodeMCU microcontroller since it was easily programmable like an Arduino.
 ![Node MCU](nodemcu.JPG)
 
-##Solution
+## Solution
+
 ![Topology](topology.png)
